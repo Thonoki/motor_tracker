@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# KiCad backups
+*.zip
+*auto_saved_files*
+
 # Object files
 *.o
 *.ko
