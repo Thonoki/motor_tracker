@@ -1,0 +1,102 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a8928dcf-7fea-46f0-8c15-a3fa49b43e6b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at -288.29 40.64) (size 71.12 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0a10fab9-d6d6-4618-bc53-de1febedc6d8)
+    (property "Sheetname" "GSMModule" (at -288.29 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gsm_module.kicad_sch" (at -288.29 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at -241.3 -85.09) (size 68.58 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c29d405-cd4c-45ef-9d08-777d8a682a5c)
+    (property "Sheetname" "Microcontroller" (at -241.3 -85.8016 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at -241.3 -47.6754 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at -299.72 106.68) (size 92.71 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 40317f30-d63d-4db0-91db-94d1ce3240f3)
+    (property "Sheetname" "GPS Module" (at -299.72 105.9684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gps_module.kicad_sch" (at -299.72 151.7146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at -321.31 -22.86) (size 68.58 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4745bc3f-76af-44ad-82b6-7f666b13235d)
+    (property "Sheetname" "Power Management" (at -321.31 -23.5716 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_management.kicad_sch" (at -321.31 10.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at -321.31 -22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at -299.72 195.58) (size 135.89 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 73fa857c-7600-465f-9c2b-9cfa1b958a36)
+    (property "Sheetname" "WiFi Bluetooth" (at -299.72 194.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "wifi_bluetooth.kicad_sch" (at -299.72 232.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
