@@ -96,6 +96,26 @@
     )
   )
 
+  (sheet (at -106.68 -82.55) (size 68.58 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7ff12963-a090-4217-a910-59943ad85554)
+    (property "Sheetname" "Movement Sensors" (at -106.68 -83.2616 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "movement_sensors.kicad_sch" (at -106.68 -45.1354 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at -106.68 -82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "7"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

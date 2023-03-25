@@ -346,6 +346,10 @@
     [
       "73fa857c-7600-465f-9c2b-9cfa1b958a36",
       "WiFi Bluetooth"
+    ],
+    [
+      "7ff12963-a090-4217-a910-59943ad85554",
+      "Movement Sensors"
     ]
   ],
   "text_variables": {}
