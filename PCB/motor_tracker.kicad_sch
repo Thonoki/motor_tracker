@@ -8,6 +8,26 @@
   )
 
 
+  (sheet (at -217.17 -20.32) (size 97.79 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00a7dfb5-f91b-41af-916a-3d945a79f238)
+    (property "Sheetname" "Battery Management" (at -217.17 -21.0316 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "battery_management.kicad_sch" (at -217.17 14.5546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at -217.17 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "motor_tracker"
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "3"))
+      )
+    )
+  )
+
   (sheet (at -288.29 40.64) (size 71.12 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -20,7 +40,7 @@
     )
     (instances
       (project "motor_tracker"
-        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "4"))
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "6"))
       )
     )
   )
@@ -37,7 +57,7 @@
     )
     (instances
       (project "motor_tracker"
-        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "3"))
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "4"))
       )
     )
   )
@@ -91,7 +111,7 @@
     )
     (instances
       (project "motor_tracker"
-        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "6"))
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "7"))
       )
     )
   )
@@ -111,7 +131,7 @@
     )
     (instances
       (project "motor_tracker"
-        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "7"))
+        (path "/a8928dcf-7fea-46f0-8c15-a3fa49b43e6b" (page "8"))
       )
     )
   )

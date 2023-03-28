@@ -312,6 +312,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -332,16 +340,20 @@
       "Power Management"
     ],
     [
+      "00a7dfb5-f91b-41af-916a-3d945a79f238",
+      "Battery Management"
+    ],
+    [
       "0c29d405-cd4c-45ef-9d08-777d8a682a5c",
       "Microcontroller"
     ],
     [
-      "0a10fab9-d6d6-4618-bc53-de1febedc6d8",
-      "GSMModule"
-    ],
-    [
       "40317f30-d63d-4db0-91db-94d1ce3240f3",
       "GPS Module"
+    ],
+    [
+      "0a10fab9-d6d6-4618-bc53-de1febedc6d8",
+      "GSMModule"
     ],
     [
       "73fa857c-7600-465f-9c2b-9cfa1b958a36",
